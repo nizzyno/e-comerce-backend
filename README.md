@@ -22,8 +22,8 @@ To install the necessary dependencies for this application, run the following co
 npm init, npm i, mysql -u root -p, SOURCE db/schema.sql, npm run seed, npm start
 ```
 
-MySQL walk through:
-API Routes walk through:
+[MySQL walk through](https://drive.google.com/file/d/1lY2NrUwLgzhX6J-u5ZJ47olk2BEswtJ6/view)\
+[API Routes walk through](https://drive.google.com/file/d/1cmPiDfVAt0dDKAKDCCVx9kCCmpv4rb6Z/view)
 
 ## Usage
 
