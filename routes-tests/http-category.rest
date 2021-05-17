@@ -1,0 +1,45 @@
+// category routes
+// get all categories
+GET http://localhost:3003/api/categories/
+
+###
+// get single category by id
+GET http://localhost:3003/api/categories/6
+
+###
+// create new category
+POST http://localhost:3003/api/categories/
+Content-Type: application/json
+
+{
+    "category_name": "Shirts",
+    "products": [
+      {
+        "id": 1,
+        "product_name": "Plain T-Shirt",
+        "price": 15,
+        "stock": 14
+}
+    ]
+}
+
+###
+// update category by id value
+PUT http://localhost:3003/api/categories/1
+Content-Type: application/json
+
+{
+    "category_name": "T-Shirt",
+    "products": [
+      {
+        "id": 1,
+        "product_name": "Plain T-Shirt",
+        "price": 15,
+        "stock": 14
+}
+    ]
+}
+
+###
+// delete category by id value
+DELETE http://localhost:3003/api/categories/1

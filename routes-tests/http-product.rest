@@ -1,0 +1,37 @@
+// product routes
+// get all products
+GET http://localhost:3003/api/products
+
+###
+// get single product by id
+http://localhost:3003/api/products/1
+
+###
+// create new product
+POST http://localhost:3003/api/products
+Content-Type: application/json
+
+{
+    "product_name": "Plain T-Shirt",
+    "price": 15,
+    "stock": 14,
+    "category_id": 1,
+    "tagIds": [1]
+}
+
+###
+// update product by id
+PUT http://localhost:3003/api/products/1
+Content-Type: application/json
+
+    {
+        "product_name": "Plain T-Shirt",
+        "price": 15,
+        "stock": 14,
+        "category_id": 1,
+        "tagIds": [1]
+    }
+
+###
+// delete product by id
+DELETE http://localhost:3003/api/products/1
