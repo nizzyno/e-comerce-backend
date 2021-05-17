@@ -33,14 +33,6 @@ This app enables users to view, add, edit, and delete categories, products, and 
 
 github.com/nizzyno
 
-## Testing
-
-To run the test suite for this application, run the following commands in your command line while in the project root directory:
-
-```
-undefined
-```
-
 ## Questions
 
 [My GitHub Site](https://www.github.com/nizzyno)\
