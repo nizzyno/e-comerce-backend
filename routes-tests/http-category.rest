@@ -4,7 +4,7 @@ GET http://localhost:3003/api/categories/
 
 ###
 // get single category by id
-GET http://localhost:3003/api/categories/6
+GET http://localhost:3003/api/categories/1
 
 ###
 // create new category
@@ -29,7 +29,7 @@ PUT http://localhost:3003/api/categories/1
 Content-Type: application/json
 
 {
-    "category_name": "T-Shirt",
+    "category_name": "T-shirt",
     "products": [
       {
         "id": 1,
@@ -42,4 +42,4 @@ Content-Type: application/json
 
 ###
 // delete category by id value
-DELETE http://localhost:3003/api/categories/1
+DELETE http://localhost:3003/api/categories/6
